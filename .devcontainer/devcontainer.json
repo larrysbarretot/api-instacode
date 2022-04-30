@@ -1,0 +1,9 @@
+{
+    "name": "api-instacode",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "learning",
+    "workspaceFolder": "/code",
+    "shutdownAction": "stopCompose",
+    "extensions": ["esbenp.prettier-vscode", "rangav.vscode-thunder-client"]
+  }
+  

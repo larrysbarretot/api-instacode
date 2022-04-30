@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  learning:
+    container_name: api-instacode
+    image: node:17.1.0-alpine3.14
+    volumes:
+      - .:/code
+    ports:
+      - "8080:8080"
+    tty: true
